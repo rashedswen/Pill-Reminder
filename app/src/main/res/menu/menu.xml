@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/medicineForSelectetDateFragment"
+        android:icon="@drawable/ic_baseline_watch_later_24"
+        android:title="Home" />
+
+
+
+    <item
+        android:id="@+id/placeholder"
+        app:showAsAction="never"
+        android:enabled="false"
+        android:title="" />
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_medical_services_24"
+        android:title="Medicine" />
+
+</menu>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16sp"
+        tools:context=".ui.add_medicine.AddMedicineName">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Enter the name of your medicine"
+                android:textColor="@color/black" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/medicine_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="medicine name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Panadol" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Choose a medicine form" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/medicine_form_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkedButton="@id/tablet"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/tablet"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_pill_24"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Tablet"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/capsule"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_capsule_svgrepo_com"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Capsule"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/drops"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_drop_24"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Drops"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/cream"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_cream_skin"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="cream"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+
+                        <RadioButton
+                            android:id="@+id/solution"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_medicine_syrum_24"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Solution"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+
+                        <RadioButton
+                            android:id="@+id/injection"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_injection_24"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Injection"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="14sp" />
+
+
+                        <RadioButton
+                            android:id="@+id/inhalation"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/selector_medicine_form"
+                            android:button="@android:color/transparent"
+                            android:drawableTop="@drawable/ic_inhalator_24"
+                            android:drawableTint="@drawable/selector_medicine_text"
+                            android:text="Inhalation"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@drawable/selector_medicine_text"
+                            android:textSize="12sp" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:text="Next >"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

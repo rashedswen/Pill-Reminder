@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date"
+    android:layout_width="wrap_content"
+    android:layout_height="75dp"
+    android:layout_marginEnd="8dp"
+    android:paddingEnd="8dp"
+    android:background="@drawable/selector_date_form"
+    android:button="@android:color/transparent"
+    android:textColor="@drawable/selector_date_text"
+    android:gravity="center"
+    android:text="T\n15"
+    android:maxLines="2" />
+

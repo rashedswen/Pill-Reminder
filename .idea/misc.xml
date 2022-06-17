@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/frequency_time_selected.xml" value="0.126" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/ic_baseline_medical_services_24.xml" value="0.1825" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/ic_capsule_24.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/rounded_corner.xml" value="0.1825" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selected_date_form.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selected_form.xml" value="0.1825" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_date_form.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_date_text.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_frequency_shape.xml" value="0.126" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_frequency_text.xml" value="0.126" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_medicine_form.xml" value="0.128" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/selector_medicine_text.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/unselected_date_form.xml" value="0.121" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/drawable/unselected_form.xml" value="0.1825" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/date_radio.xml" value="0.536" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_add_medicine_details.xml" value="0.152" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_add_medicine_duration.xml" value="0.25" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_add_medicine_name.xml" value="0.19597989949748743" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_medicine_for_selectet_date.xml" value="0.16494845360824742" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_reminder.xml" value="0.25" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/fragment_status.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/medicine_list_item.xml" value="0.3203732503888025" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/layout/time_chip.xml" value="0.27405247813411077" />
+        <entry key="..\:/Users/rashed/AndroidStudioProjects/PillReminder/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
